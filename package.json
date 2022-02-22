@@ -3,14 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.5.1"
+  },
   "scripts": {
+    "backend": "nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "k",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.2",
     "express": "^4.17.3",
     "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
